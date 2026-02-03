@@ -1,7 +1,7 @@
 from abc import ABC
 
 
-class Base(ABC):
+class BaseClass(ABC):
     _id = 0
     obj_list = list()
 
