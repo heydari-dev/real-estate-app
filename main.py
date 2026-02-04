@@ -18,28 +18,28 @@ if __name__ == "__main__":
     reg1 = Region(name='R1')
 
     apt1 = Apartment(
-        user=User.obj_list[0], area=80, rooms_count=2, built_year=1390,
+        user=User.objects_list[0], area=80, rooms_count=2, built_year=1390,
         region=reg1, address='La ST...', has_elevator=True, has_parking=True,
         floor=1
     )
     # apt1.show_description()
 
     house1 = House(
-        user=User.obj_list[3], area=100, rooms_count=3, built_year=1350,
+        user=User.objects_list[3], area=100, rooms_count=3, built_year=1350,
         region=reg1, address='La ST...', has_yard=True, floors_count=4,
     )
     # house1.show_description()
 
     store1 = Store(
-            user=User.obj_list[-1], area=100, rooms_count=3, built_year=1350,
-            region=reg1, address='La ST...'
+            user=User.objects_list[-1], area=100, rooms_count=3,
+            built_year=1350, region=reg1, address='La ST...'
         )
     # store1.show_description()
 
-    apt_seal = ApartmentSell(
-        user=User.obj_list[0], area=80, rooms_count=2, built_year=1390,
+    apt_sell = ApartmentSell(
+        user=User.objects_list[0], area=80, rooms_count=2, built_year=1390,
         region=reg1, address='La ST...', has_elevator=True, has_parking=True,
         floor=1, price_per_meter=10, discountable=True, convertable=False
     )
 
-    apt_seal.show_detail()
+    apt_sell.show_detail()

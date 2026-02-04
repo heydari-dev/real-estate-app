@@ -1,10 +1,10 @@
-from base import BaseClass
+from abc import ABC
 
 
-class Sell(BaseClass):
+class Sell(ABC):
     def __init__(
             self, price_per_meter, discountable,
-            convertable=False, *args, **kwargs
+            convertable, *args, **kwargs
     ):
         self.price_per_meter = price_per_meter
         self.discountable = discountable
@@ -13,14 +13,13 @@ class Sell(BaseClass):
 
     def show_price(self):
         print(
-            f"price: {self.price_per_meter}\t discount: {self.discountable}"
-            f"\t convert:{self.convertable}"
+            f"price: {self.price_per_meter}\t discount: {self.discountable}\t"
         )
 
 
-class Rent(BaseClass):
-    def __init__(self, initial_price, monthly_price, convertable=False,
-                 discountable=False, *args, **kwargs
+class Rent(ABC):
+    def __init__(self, initial_price, monthly_price, convertable,
+                 discountable, *args, **kwargs
                  ):
         self.initial_price = initial_price
         self.monthly_price = monthly_price
