@@ -59,9 +59,8 @@ if __name__ == "__main__":
     # print(house_sell.manager)
     # print(store_sell.manager)
 
-    print(ApartmentSell.manager.search(region=reg1))
-    print(StoreSell.manager.search(region=reg2))
-    print(ApartmentSell.manager.get(region=reg1))
+    # print(ApartmentSell.manager.search(region=reg1))
+    # print(StoreSell.manager.search(region=reg2))
+    # print(ApartmentSell.manager.get(region=reg1))
 
-
-
+    print(ApartmentSell.manager.search(price_per_meter=10))
