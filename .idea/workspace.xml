@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f91271f1-7063-47cb-9904-be7214c802f1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estate.py" beforeDir="false" afterPath="$PROJECT_DIR$/estate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager.py" afterDir="false" />
     </list>
@@ -91,7 +92,7 @@
       <workItem from="1770204321407" duration="8982000" />
       <workItem from="1770285594787" duration="591000" />
       <workItem from="1770532605925" duration="5737000" />
-      <workItem from="1770709990088" duration="3737000" />
+      <workItem from="1770709990088" duration="10710000" />
     </task>
     <servers />
   </component>
@@ -107,7 +108,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/real_estate_app$advertisment.coverage" NAME="advertisment Coverage Results" MODIFIED="1770223251383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/real_estate_app$main.coverage" NAME="main Coverage Results" MODIFIED="1770711657007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/real_estate_app$main.coverage" NAME="main Coverage Results" MODIFIED="1770759291915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/real_estate_app$estate.coverage" NAME="estate Coverage Results" MODIFIED="1770120488064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

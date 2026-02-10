@@ -24,7 +24,7 @@ class Apartment(EstateAbstract):
         super().__init__(*args, **kwargs)
 
     def show_description(self):
-        print(f"Apartment {self.id}\t area: {self.area}")
+        print(f"Apartment: {self.id}\t area: {self.area}")
 
 
 class House(EstateAbstract):
@@ -34,9 +34,9 @@ class House(EstateAbstract):
         super().__init__(*args, **kwargs)
 
     def show_description(self):
-        print(f"House: {self.id}")
+        print(f"House: {self.id}\t area: {self.area}")
 
 
 class Store(EstateAbstract):
     def show_description(self):
-        print(f"Store: {self.id}")
+        print(f"Store: {self.id}\t area: {self.area}")
