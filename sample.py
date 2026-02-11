@@ -15,7 +15,6 @@ def create_samples():
         User(choice(first_name_list), choice(last_number_list), phone)
 
     reg1 = Region(name='R1')
-    reg2 = Region(name='R2')
 
     apt1 = Apartment(
         user=User.objects_list[0], area=80, rooms_count=2, built_year=1390,
@@ -50,3 +49,6 @@ def create_samples():
         built_year=1350, region=reg1, address='La ST...',
         price_per_meter=10, discountable=True, convertable=False
     )
+
+    print('#'*10+' Sample created '+'#'*10)
+
