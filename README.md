@@ -30,12 +30,3 @@ Example usage:
 ApartmentSell.manager.search(area__min=70)
 ```
 
----
-
-## Run Project
-
-```bash
-git clone https://github.com/heydari-dev/real-estate-app.git
-cd real-estate-app
-python main.py
-```
